@@ -1,0 +1,5 @@
+s = open('24-10.txt').readline()
+s = s.replace('B', 'A').replace('C', 'A').replace('2', '1').replace('3', '1')
+s = s.reaplce('A11', '*')
+s = s.replace('A', ' ').replace('1', ' ')
+print(max(len(c) for c in s.split()))
